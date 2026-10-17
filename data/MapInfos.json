@@ -1,0 +1,12 @@
+[
+null,
+{"id":1,"expanded":true,"name":"オープニング用","order":1,"parentId":0,"scrollX":613.8,"scrollY":469.2},
+{"id":2,"expanded":true,"name":"青鬼テスト","order":9,"parentId":0,"scrollX":613.8,"scrollY":469.2},
+{"id":3,"expanded":false,"name":"いけみMAP1","order":6,"parentId":0,"scrollX":1075.8,"scrollY":1431.6},
+{"id":4,"expanded":false,"name":"鬼ごっこ１","order":4,"parentId":5,"scrollX":604.1999999999999,"scrollY":469.2},
+{"id":5,"expanded":false,"name":"森の町","order":3,"parentId":0,"scrollX":604.1999999999999,"scrollY":1042.8},
+{"id":6,"expanded":true,"name":"ケーキ屋","order":2,"parentId":0,"scrollX":613.8,"scrollY":469.2},
+{"id":7,"expanded":false,"name":"迷いの森","order":5,"parentId":0,"scrollX":1128.6,"scrollY":459.59999999999997},
+{"id":8,"expanded":false,"name":"ゆーたMAP1","order":7,"parentId":0,"scrollX":1338.6,"scrollY":1904.3999999999999},
+{"id":9,"expanded":false,"name":"魔王城3F","order":8,"parentId":0,"scrollX":816,"scrollY":1040}
+]
