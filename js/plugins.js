@@ -16,5 +16,5 @@ var $plugins =
 {"name":"CustomFont","status":true,"description":"イベントからゲーム内フォントを切り替えます。","parameters":{}},
 {"name":"CustomUI","status":true,"description":"イベントからWindowskinを自由に切り替えます。","parameters":{}},
 {"name":"UndertaleBattleUI","status":true,"description":"Undertale風 戦闘UI","parameters":{}},
-{"name":"UndertaleBattleUI2","status":false,"description":"","parameters":{}}
+{"name":"MessageCenter","status":true,"description":"文章の表示に \\CENTER による中央揃えを追加","parameters":{}}
 ];

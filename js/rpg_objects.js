@@ -4804,7 +4804,7 @@ Game_Party.prototype.battleMembers = function() {
 };
 
 Game_Party.prototype.maxBattleMembers = function() {
-    return 4;
+    return 6;
 };
 
 Game_Party.prototype.leader = function() {
@@ -10639,3 +10639,29 @@ Game_Interpreter.requestImages = function(list, commonList){
         }
     });
 };
+
+(function() {
+    var _canMove = Game_Player.prototype.canMove;
+    var _triggerAction = Game_Player.prototype.triggerAction;
+
+    Game_Player.prototype.canMove = function() {
+        if (this._tansuHidden) {
+            return false;
+        }
+        return _canMove.call(this);
+    };
+
+    Game_Player.prototype.triggerAction = function() {
+        if (this._tansuHidden) {
+            // 決定キーを新しく押したときだけ反応
+            if (Input.isTriggered('ok')) {
+                this.checkEventTriggerHere([0]);
+                this.checkEventTriggerThere([0, 1, 2]);
+                return true;
+            }
+            return false;
+        }
+
+        return _triggerAction.call(this);
+    };
+})();
